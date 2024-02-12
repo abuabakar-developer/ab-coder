@@ -34,4 +34,7 @@ jobs:
         args: deploy --prod --dir=build --message="Auto deploy from GitHub Actions"
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: your_netlify_site_id
+        NETLIFY_SITE_ID:
+07a6c275-6805-4fb2-afbd-bccc8b64c4e8
+
+
